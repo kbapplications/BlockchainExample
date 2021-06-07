@@ -91,7 +91,6 @@ class Blockchain {
           }
         }
     
-        debug('get transactions for wallet count: %s', txs.length);
         return txs;
       }
 }
