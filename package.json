@@ -1,0 +1,24 @@
+{
+  "name": "kbcoin-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "elliptic": "^6.5.4",
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbapplications/BlockchainExample.git"
+  },
+  "author": "KB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbapplications/BlockchainExample/issues"
+  },
+  "homepage": "https://github.com/kbapplications/BlockchainExample#readme"
+}
