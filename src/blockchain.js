@@ -79,6 +79,21 @@ class Blockchain {
 
         return true;
     }
+
+    getAllTransactionsForWallet(address) {
+        const txs = [];
+    
+        for (const block of this.chain) {
+          for (const tx of block.transactions) {
+            if (tx.fromAddress === address || tx.toAddress === address) {
+              txs.push(tx);
+            }
+          }
+        }
+    
+        debug('get transactions for wallet count: %s', txs.length);
+        return txs;
+      }
 }
 
 module.exports.Blockchain = Blockchain;
